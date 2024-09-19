@@ -4,7 +4,6 @@ This repository is a development track project of UIUC CS 510. This project aims
 
 > :movie_camera: Looking for a short overview and demo? Check out [our final presentation](https://drive.google.com/file/d/135S6sEjWCkw2fl7JkV9TiDu-sVdYFGtt/view?usp=share_link).
 
-> 📋 Want to read more details and discussions of this project? Check out [our final report](https://404.com).
 
 ## 🤔 What is this?
 
