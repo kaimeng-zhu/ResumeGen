@@ -1,0 +1,9 @@
+You are given the below user request:
+    {user_request}
+, and the old prompt template:
+    {old_template}
+Based on this user request, you should only modify the section of old prompt template which is surrounded by `###` and `###`.
+You should combine the past user requests and the new one, and then fill in the text that starts from `###` and ends with `###`.
+For example, if the user request is `more experience` and there is a text in the old prompt template `### None ###`, then the result should be `### more experience ###`.
+
+New Template here:

@@ -1,0 +1,132 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{\Large Steve Jobs} & Email : \href{mailto:abcd@123.gmail.com}{abcd@123.gmail.com}\\
+    \href{1234.com}{1234.com} & Mobile : +1-123-123-1234 \\
+  \end{tabular*}
+  
+  
+  %-----------EDUCATION-----------------
+  \section{Education}
+    \resumeSubHeadingListStart
+      \resumeSubheading
+        {Massachusetts Institute of Technology}{Boston, MA}
+        {Master of Science in Computer Science;  GPA: 4.00}{2012-2014}
+    \resumeSubHeadingListEnd
+  
+  
+  %-----------EXPERIENCE-----------------
+  % re-fill with ONLY working experience, excluding all projects and skills
+  \section{Experience}
+    \resumeSubHeadingListStart
+  
+      \resumeSubheading
+        {Acme Analytics}{San Francisco, CA}
+        {Senior Data Scientist}{2018-2021}
+  
+      \resumeSubheading
+        {Nexus Insights}{New York, NY}
+        {Data Scientist}{2016-2018}
+  
+      \resumeSubheading
+        {Peak Solutions}{Austin, TX}
+        {Machine Learning Engineer}{2014-2016}
+  
+    \resumeSubHeadingListEnd.
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Predictive Maintenance for Manufacturing Equipment}
+      {Part of a team at Acme Analytics, developed a predictive maintenance model for a manufacturing client using time-series data and XGBoost to predict equipment failure before it happened. Integrated the model into the client's existing systems using REST APIs and MQTT protocols, resulting in a 20\% reduction in downtime.}
+    \resumeSubItem{Customer Segmentation for E-commerce Site}
+      {Developed a customer segmentation model for an e-commerce site using R and SAS to analyze large datasets and identify trends and patterns. Developed interactive dashboards using Tableau to visualize data and communicate insights to clients.}
+    \resumeSubItem{Churn Prediction}
+      {Developed a churn prediction model for a subscription-based business using a combination of logistic regression and random forest, resulting in a 15\% reduction in churn. Integrated the model into the client's existing systems using REST APIs.}
+    \resumeSubItem{Customer Segmentation}
+      {Developed a customer segmentation model to identify customer segments and their characteristics.}
+    \resumeSubItem{Predictive Model}
+      {Developed a predictive model to forecast customer lifetime value.}
+    \resumeSubItem{Predictive Model}
+      {Developed a predictive model to forecast customer churn.}
+  \resumeSubHeadingListEnd
+
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+  \resumeSubItem{Languages}
+    {Python, SQL, TensorFlow, scikit-learn, R, SAS, Excel, Tableau, Apache Spark, Airflow, Keras, C\#.}
+  \resumeSubItem{Technologies}
+    {AWS, Play, React, Kafka, GCE.}
+ \resumeSubHeadingListEnd
+
+\section{Ending}
+
+I am a highly motivated individual with a passion for data science and machine learning. I have a strong background in mathematics and statistics, and I am eager to apply my knowledge and skills to solve real-world problems. I am confident that I can make a positive contribution to any organization.
+
+ \end{document}
